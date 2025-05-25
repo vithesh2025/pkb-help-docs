@@ -1,0 +1,22 @@
+site_name: Peak Brain Institute Help Docs
+theme:
+  name: material
+  logo: assets/logo.png
+  font:
+    text: Lato
+    code: Fira Code
+  palette:
+    scheme: default
+    primary: light blue  # lighter, fresher primary
+    accent: indigo       # darker accent for contrast
+extra:
+  homepage: https://peakbraininstitute.com
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - About: about.md
+  - Getting Started: Getting_started.md
+  - Using Noggin Portal: using_noggin.md
+  - Placement Finding: 
+    - Finding T3-T4: placement_docs/t3-t4.md
+    - Finding POZ: placement_docs/POZ-A1_AT.md
