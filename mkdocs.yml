@@ -19,9 +19,10 @@ extra_css:
 nav:
   - About: index.md
   - Getting Started: Getting_started.md
+  - Setup Guide: setup_guide.md
   - Using Noggin Portal: using_noggin.md
   - Placement Finding: 
     - Finding T3-T4: placement_docs/t3-t4.md
     - Finding POZ: placement_docs/POZ-A1_AT.md
   - Important Links: links.md
-  - Alpha Theta Traing: links.md
+  
