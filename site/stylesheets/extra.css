@@ -1,0 +1,47 @@
+/* Header: light background, dark text */
+.md-header {
+    background-color: #FFFFFF;  /* white */
+    color: #173D7A;             /* dark blue text */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.md-header__button.md-logo img {
+    height: 40px; /* reduce logo size if needed */
+}
+
+/* Active navigation link */
+.md-nav__link--active {
+    color: #173D7A;
+    font-weight: bold;
+}
+
+/* Page background */
+body {
+    background-color: #F9FAFB;  /* light gray */
+}
+
+/* Links */
+a, .md-typeset a {
+    color: #173D7A;
+}
+
+a:hover, .md-typeset a:hover {
+    color: #6ECFF6;
+}
+
+/* Buttons */
+.md-button {
+    background-color: #173D7A;
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+.md-button:hover {
+    background-color: #6ECFF6;
+    color: #173D7A;
+}
+
+/* Add padding to main content */
+.md-content {
+    padding: 2rem;
+}

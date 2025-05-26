@@ -1,4 +1,5 @@
 site_name: Peak Brain Institute Help Docs
+site_url: https://vithesh2025.github.io/pkb-help-docs/
 theme:
   name: material
   logo: assets/logo.png
@@ -11,12 +12,16 @@ theme:
     accent: indigo       # darker accent for contrast
 extra:
   homepage: https://peakbraininstitute.com
+  generator: false
+
 extra_css:
   - stylesheets/extra.css
 nav:
-  - About: about.md
+  - About: index.md
   - Getting Started: Getting_started.md
   - Using Noggin Portal: using_noggin.md
   - Placement Finding: 
     - Finding T3-T4: placement_docs/t3-t4.md
     - Finding POZ: placement_docs/POZ-A1_AT.md
+  - Important Links: links.md
+  - Alpha Theta Traing: links.md
